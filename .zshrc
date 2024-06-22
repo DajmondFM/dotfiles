@@ -111,6 +111,7 @@ alias cd='z'
 alias ssh_win='ssh frane@192.168.1.165'
 alias ls='eza --icons=auto'
 alias tree='eza --tree --icons=auto'
+alias spf="spf ./"
 
 # alias fastfetch='fastfetch -c neofetch'
 alias neofetch='fastfetch -c neofetch'
@@ -121,6 +122,7 @@ eval "$(zoxide init zsh)"
 
 # export AUTO_NOTIFY_TITLE="Zsh"
 export AUTO_NOTIFY_EXPIRE_TIME=5000
+AUTO_NOTIFY_IGNORE=("nvim" "spf" "cargo")
 
 
 # fastfetch --config /home/franek/.config/fastfetch/start.jsonc
