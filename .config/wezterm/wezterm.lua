@@ -16,7 +16,6 @@ config.font = wezterm.font 'JetBrains Mono'
 --config.color_scheme = 'Batman'
 config.color_scheme = 'Tokyo Night'
 
-
 config.default_cursor_style = 'BlinkingBar'
 -- config.animation_fps = 60
 config.cursor_blink_ease_in = 'Constant'
@@ -79,7 +78,45 @@ wezterm.on('update-right-status', function(window, pane)
     { Text = bat .. '   ' .. time },
   })
 end)
---
+
+-- config.hide_tab_bar_if_only_one_tab = true
+
+config.window_frame = {
+  -- font = wezterm.font 'JetBrains Mono',
+  -- font_size = 10,
+  active_titlebar_bg = '#16161e',
+}
+
+config.colors = {
+  tab_bar = {
+    background = '#16161e',
+
+    active_tab = {
+      bg_color = '#1a1b26',
+      fg_color = '#a9b1d6',
+      -- intensity = 'Bold',
+      -- underline = 'Single',
+      -- strikethrough = true,
+    },
+
+    inactive_tab = {
+      bg_color = '#16161e',
+      fg_color = '#a9b1d6',
+      -- intensity = 'Half',
+    },
+
+    -- inactive_tab_hover = {
+    --   bg_color = '#16161e',
+    --   fg_color = '#a9b1d6',
+    --   italic = true,
+    -- },
+
+    new_tab = {
+      bg_color = '#16161e',
+      fg_color = '#a9b1d6',
+    },
+  },
+}
+
 -- and finally, return the configuration to wezterm
 return config
-
