@@ -112,6 +112,7 @@ alias ssh_win='ssh frane@192.168.1.165'
 alias ls='eza --icons=auto'
 alias tree='eza --tree --icons=auto'
 alias spf="spf ./"
+# setxkbmap pl
 
 # alias fastfetch='fastfetch -c neofetch'
 alias neofetch='fastfetch -c neofetch'
