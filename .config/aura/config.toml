@@ -1,0 +1,29 @@
+[general]
+cpus = 8
+editor = "vim"
+doas = false
+language = "en-US"
+noconfirm = false
+
+[aur]
+build = "/home/franek/.cache/aura/builds"
+cache = "/home/franek/.cache/aura/cache"
+clones = "/home/franek/.cache/aura/packages"
+hashes = "/home/franek/.cache/aura/hashes"
+chroot = []
+ignores = ["linux-lts", "linux-lts-headers"]
+git = false
+hotedit = false
+shellcheck = false
+diff = false
+delmakedeps = false
+clean = true
+warn_unknowns = true
+nocheck = false
+skipdepcheck = false
+reverse = false
+
+[backups]
+snapshots = "/home/franek/.cache/aura/snapshots"
+automatic = true
+
