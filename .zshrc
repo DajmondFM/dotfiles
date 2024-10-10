@@ -112,6 +112,7 @@ alias ssh_win='ssh frane@192.168.1.165'
 alias ls='eza --icons=auto'
 alias tree='eza --tree --icons=auto'
 alias spf="spf ./"
+alias cp="rsync -ahr --info=progress2"
 # setxkbmap pl
 
 # alias fastfetch='fastfetch -c neofetch'
@@ -125,5 +126,8 @@ eval "$(zoxide init zsh)"
 export AUTO_NOTIFY_EXPIRE_TIME=5000
 AUTO_NOTIFY_IGNORE=("nvim" "spf" "cargo")
 
+export EDITOR=nvim
 
 # fastfetch --config /home/franek/.config/fastfetch/start.jsonc
+
+export PATH=$PATH:/home/franek/.spicetify
