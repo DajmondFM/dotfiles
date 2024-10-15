@@ -113,6 +113,7 @@ alias ls='eza --icons=auto'
 alias tree='eza --tree --icons=auto'
 alias spf="spf ./"
 alias cp="rsync -ahr --info=progress2"
+alias lg="lazygit"
 # setxkbmap pl
 
 # alias fastfetch='fastfetch -c neofetch'
