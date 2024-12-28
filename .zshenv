@@ -46,3 +46,4 @@ setopt rcs
 echo " "
 fastfetch --config /home/franek/.config/fastfetch/start.jsonc
 echo " "
+. "$HOME/.cargo/env"

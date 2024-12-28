@@ -1,0 +1,13 @@
+# Ghostty Terminal
+# Tested versions are:
+# 1.0.0-3
+theme = tokyonight
+font-size = 11
+font-family = "JetBrainsMono Nerd Font"
+#font-family = "JetBrainsMono"
+background-opacity = 0.95
+window-theme = ghostty
+
+# Custom Shaders
+#custom-shader = "glitchy.glsl"
+#custom-shader = "bloom.glsl"
