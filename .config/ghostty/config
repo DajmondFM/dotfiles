@@ -7,6 +7,7 @@ font-family = "JetBrainsMono Nerd Font"
 #font-family = "JetBrainsMono"
 background-opacity = 0.95
 window-theme = ghostty
+auto-update = check
 
 # Custom Shaders
 #custom-shader = "glitchy.glsl"
